@@ -1,0 +1,327 @@
+*{
+    margin: 0;
+    padding:0;
+
+}
+.container1{
+    height: 950px;
+    background-image: url(https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: center;
+}
+.row1
+{
+   
+    width: 600px;
+    height:500px;
+    padding-left: 120px;
+    padding-top: 300px;
+}
+.row1 h1{
+    font-weight:bolder;
+    font-size:50px;
+   
+}
+.row1 p{
+    font-size:20px;
+    
+}
+.shop
+{
+    background-color: white;
+    width:140px;
+    height:50px;
+    border-radius: 25px;
+    border: none;
+    box-shadow: 1px 1px gainsboro;
+    padding: 10px;
+}
+.shop:hover{
+    background-color: rgb(168, 166, 166);
+}
+.container_about{
+
+    background-color:whitesmoke;
+    width: 100%;
+    height:300px;
+    padding-left: 70px;
+    padding-top: 50px;
+}
+.tag
+{
+    width:100%;
+    height:100px;
+    background-color:rgba(255, 166, 0, 0.856);
+    padding-top:30px;
+    padding-left:20%;
+    color:whitesmoke;
+}
+.container_phones h2{
+   
+    padding-top: 5%;
+    padding-left: 60px;
+   
+}
+.card_container{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 20px;;
+}
+.card_container.card-text{
+   
+    color:whitesmoke;
+}
+.card_container.card-body{
+    background-color: rgba(252, 176, 34, 0.856);
+}
+.card_container.card-title
+{
+    font-weight: bolder;
+}
+.card_container.card-img-top{
+    width:414px;
+    height:250px;
+    object-fit: cover;
+    
+}
+.card_container.card{
+    border: none;
+}
+.shop_now1
+{
+    background-color:rgba(252, 176, 34, 0.856);
+    width:140px;
+    margin-right:20px;
+    border-radius: 25px;
+    padding: 10px;
+    top:50px;
+
+}
+.image_container1
+{
+  
+    padding: 10px;
+    width:414px;
+    height:300px;
+    background-image: url(https://media.istockphoto.com/id/1279940426/photo/orange-headphones-on-a-orange-background-minimal-concept-mock-up-music-levitation.jpg?s=612x612&w=0&k=20&c=YjYY8d3LiYXDEQVfCaZ0zGzC61Ch_GwfRi4VEbf35Gw=);
+    background-size: cover;
+
+}
+
+.image_container2
+{
+    
+    padding: 10px;
+    width:414px;
+    height:300px;
+    background-image:url(https://images.unsplash.com/photo-1484704849700-f032a568e944?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDd8fHxlbnwwfHx8fHw%3D);
+    background-size: cover;
+}
+.image_container3
+{
+   
+    padding: 10px;
+    width:414px;
+    height: 300px;
+
+    background-image: url("https://media.istockphoto.com/id/1223161642/photo/wireless-bluetooth-headphones-on-reflective-background.jpg?s=612x612&w=0&k=20&c=6T_UGfaK5sWmENtC-EzncBbYZqGk4TLryu-x0P-r98E=");
+    background-size: cover;
+}
+
+.container_pic{
+
+    width:100%;
+    height:500px;
+    padding-left: 70px;
+    margin-top:50px
+}
+
+.container_gallery {
+    position: relative;
+    width:400px;
+    padding:10px;
+    
+    padding: 10px;
+  }
+  
+ 
+  
+  .overlay {
+    position: absolute;
+    top:9px;
+    bottom: 0;
+    left: 9px;
+    right: 0;
+    
+    width:350px;
+    height: 250px;
+    opacity:0;
+    transition: .5s ease;
+    background-color: hsl(0, 1%, 42%);
+    font-weight: bold;
+  }
+  
+  .container_gallery:hover .overlay {
+    opacity:0.5;
+   
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .gallery img {
+    
+    width:350px;
+    height: 250px;
+    object-fit: cover;
+    transform: scale(0.5s);
+    
+}
+.container_offer
+{
+    width:100%;
+    height:150px;
+    background-color:rgba(255, 166, 0, 0.856);
+    color:whitesmoke;
+    padding-top: 20px;
+    margin-top:120px;
+    padding-left: 100px;
+    position: relative;
+}
+.learn_button{
+    border-radius:25px;
+    width:130px;
+    height:40px;
+    border: none;
+    padding-bottom:10px;
+    padding-top:10px;
+    box-shadow: 1px 1px gray;
+    
+}
+.learn{
+    top:35px;
+    left:75%;
+    width:140px;
+    height:50px;
+    position: absolute;
+   
+}
+.container_buy{
+    margin-top: 20px;
+
+}
+.container_buy h3{
+    padding-left:290px;
+}
+.container_buy .card{
+    margin:10px;
+}
+.container_buy .card-title{
+    color: orange;
+    font-weight: bold;
+    font-size:55px;
+    align-content: center;
+    margin-left: 90px;
+   
+}
+.card-body{
+    position: relative;
+
+}
+.over_write{
+  
+    width:230px;
+    height:40px;
+    position: absolute;
+    top:5px;
+    left:20px;
+    margin-top: 25px;
+    margin-left: 40px;
+    padding: 10px;
+    font-weight: bold;
+    font-size:20px;
+    opacity: 0.6;
+
+}
+.card{
+    border:none;
+}
+.row_location h5{
+    padding-left:38%;
+    color: rgb(109, 107, 107);
+    font-size:20px;
+}
+.row_location h3{
+    padding-left:36%;
+    font-size:25px;
+    font-weight: bold;
+}
+.fab{
+    color:orange;
+}
+.icon{
+    left:6px;
+}
+.navbar-toggler{
+    margin-left: 90%;
+}
+a{
+    text-decoration: none;
+}
+.dropdown
+{
+    text-align: center;
+    width:100%;
+    z-index: 1070;
+    left:0;
+}
+.dropdown1
+{
+    text-align: center;
+    width:100%;
+    left:0;
+}
+.row_button2{
+    margin-left: 45%;
+}
+.dropdown-menu{
+    
+    width:100%;
+    border: none;
+    background-color:rgba(255, 166, 0, 0.856);
+    height: 300px;
+    
+   
+}
+.dropdown-item
+{
+    width: 100%;
+    border: none;
+    text-align:center;
+    z-index: 1070;
+   
+}
+.social{
+    text-align: center;
+    margin-left: 43%;
+}
+.navbar{
+    position: sticky;
+    top:0;
+    z-index: 1060;
+    
+}
+.head a:hover{
+    opacity: 0.6;
+}
